@@ -1,25 +1,25 @@
 const navLinks = [
-  { id: 1, name: "portfolio" },
+  { id: 1, name: "Projects" },
   { id: 2, name: "contact" },
-  { id: 3, name: "project" },
+  { id: 3, name: "Resume" },
 ];
 
 const navIcons = [
   {
     id: 1,
-    img: "/public/icons/wifi.svg",
+    img: " /icons/wifi.svg",
   },
   {
     id: 2,
-    img: "/public/icons/search.svg",
+    img: " /icons/search.svg",
   },
   {
     id: 3,
-    img: "/public/icons/user.svg",
+    img: "/icons/user.svg",
   },
   {
     id: 4,
-    img: "/public/icons/mode.svg",
+    img: "/icons/mode.svg",
   },
 ];
 
@@ -90,11 +90,7 @@ const blogPosts = [
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
-  },
-  {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
+    items: ["HTML", "Css", "Javascript", "React.js"],
   },
   {
     category: "Styling",
@@ -102,7 +98,7 @@ const techStack = [
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js", "Express"],
   },
   {
     category: "Database",
@@ -110,7 +106,7 @@ const techStack = [
   },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    items: ["Git", "GitHub"],
   },
 ];
 
